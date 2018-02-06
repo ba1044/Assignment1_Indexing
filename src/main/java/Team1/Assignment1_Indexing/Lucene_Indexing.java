@@ -94,32 +94,7 @@ public class Lucene_Indexing {
 
 	}
 	
-	public static void extractAllQueryData(String queryFilePath)
-	{
-		if (allHeadingList==null || allSectionList ==null)
-		{
-			try
-			{
-				allHeadingList=new ArrayList<String>();
-                allSectionList=new ArrayList<String>();
-                 storeAllHeading(queryFilePath);				
-				
-			}catch(FileNotFoundException e)
-			{
-				System.out.println("Unable to find file");
-				e.printStackTrace();
-			}
-		
-		}
-		
-	}
-	
-	
-	public static void  storeAllHeading(String QueryFilePath) throws FileNotFoundException
-	{
-		
-		
-	}
+
 	public static void checkQuery_Data(String queryFilePath) {
 		
 		if (pageQueryList == null || sectionQueryList == null) {
