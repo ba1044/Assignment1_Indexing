@@ -1,7 +1,5 @@
 # Assignment1_Indexing
 This repository contains the details of TREC- Car Paragraph corpus searching and indexing.
-
-This repository contains the details of TREC- Car Paragraph corpus searching and indexing.
 Installation
 1. Clone the repository into your desired directory in your system.
 2. Open a terminal and move into the directory.
