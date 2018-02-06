@@ -56,7 +56,7 @@ public class Lucene_Indexing {
 		
         String queryPath="I:/CS980Assignment1/benchmarkY1-train.v2.0.tar (1)/benchmarkY1-train.v2.0/benchmarkY1/benchmarkY1-train/train.pages.cbor";
 		String dataPath="I:/CS980Assignment1/paragraphCorpus.v2.0.tar (1)/paragraphCorpus.v2.0/paragraphCorpus/dedup.articles-paragraphs.cbor";
-	    //System.setProperty("file.encoding", "UTF-8");
+	   System.setProperty("file.encoding", "UTF-8");
 		
 
 		try {
