@@ -227,7 +227,7 @@ public class Lucene_Indexing {
 				float rankScore = score.score;
 				int rank = i + 1;
 
-				String runStr = queryStr + " Q0 " + paraId + " " + rank + " " + rankScore + " Bindu";
+				String runStr = queryStr + " Q0 " + paraId + " " + rank + " " + rankScore + " BM-25";
 				runFileStr.add(runStr);
 			}
 		}
